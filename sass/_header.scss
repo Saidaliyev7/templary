@@ -1,0 +1,61 @@
+.navbar {
+    background-color: #ffffff !important;
+    height: 100px;
+    i {
+        position: absolute;
+        content: '\f0eb';
+        color: #ffffff;
+        font-size: 35px;
+        line-height: 73px;
+        font-family: 'FontAwesome';
+        width: 73px;
+        height: 73px;
+        background: #8dbf41;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        text-align: center;
+        top: 13px;
+        left: 12px;
+    }
+    .navbar-a {
+        position: absolute;
+        left: 10%;
+        color: black;
+    }
+    .nav-item {
+        .dropdown {
+            position: relative;
+            &:hover {
+                .dropdown-menu {
+                    display: block;
+                }
+            }
+            .dropdown-menu {
+                position: absolute;
+                top: 100%;
+                left: -35px;
+                z-index: 1000;
+                display: none;
+                float: left;
+                margin: 14px 0 0;
+                list-style: none;
+                font-size: 13px;
+                text-align: left;
+                background-color: #8dbf41;
+            }
+        }
+    }
+    .navbar-nav {
+        right: 5%;
+        position: absolute;
+        a {
+            transition: 0.5s ease;
+            color: rgba(0, 0, 0, 0.44);
+            &:hover {
+                color: black;
+                transition: 0.5s ease;
+            }
+        }
+    }
+}
