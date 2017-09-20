@@ -1,0 +1,19 @@
+.sc4 {
+    background: #8dbf41;
+    height: 300px;
+    .container {
+        color: white;
+        text-align: center;
+        .well {
+            padding: 8% 0%;
+            h2 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 22px;
+                line-height: 32px;
+                margin-top: 2%;
+            }
+        }
+    }
+}
