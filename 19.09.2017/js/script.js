@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
-  $("col-md-4")
+  $("#dropdownMenuLink").mouseover(function(){
+   $(".dropdown-menu").addClass("showClass");
+  })
+  $("#dropdownMenuLink").mouseout(function(){
+    $(".dropdown-menu").removeClass("showClass");
+   })
+  
 
 })
