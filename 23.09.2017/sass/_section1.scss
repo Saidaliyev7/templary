@@ -1,0 +1,74 @@
+.mainheader {
+    background-image: url(../img/main-header.jpg);
+    height: 710px;
+    background-size: cover;
+    overflow: hidden;
+    .overlay {
+        background: rgba(5, 19, 52, 0.85);
+        padding: 100px 0;
+        height: 100%;
+        .info {
+            border: 1px solid white;
+            border-radius: 10px;
+            height: 250px;
+            background-color: white;
+            h2 {
+                padding-top: 10px;
+                color: #8a6d3b;
+                text-align: center;
+            }
+            h4{
+                
+                 font-size: 14px;
+                  text-align: center;
+            }
+            ul {
+                list-style-type: none;
+                margin: 20px 0px;
+                padding: 2px;
+                li {
+                    display: inline-block;
+                    width: 49%;
+                    i {
+                        display: inline-block;
+                        width: 30px;
+                        height: 30px;
+                        color: #fff;
+                        background: #8a6d3b;
+                        border-radius: 50%;
+                        margin-right: 5px;
+                        text-align: center;
+                        padding: 7px 0;
+                    }
+                    p {
+                        display: inline-block;
+                        font-size: 14px;
+                        
+                    }
+                }
+            }
+            a {
+                transition: all 0.4s ease-in-out 0s;
+                width: 100%;
+                text-align: center;
+                padding: 10px;
+                color: #fff;
+                background: #051334;
+                border-right: 1px solid rgba(255, 255, 255, 0.36);
+                &:hover {
+                    background: #8a6d3b;
+                }
+                i {
+                    width: 19%;
+                }
+            }
+        }
+        img {
+            width: auto;
+            position: absolute;
+            bottom: 6.5%;
+            right: 0;
+            height: 100%;
+        }
+    }
+}

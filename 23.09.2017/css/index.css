@@ -1,0 +1,118 @@
+.mainheader {
+  background-image: url(../img/main-header.jpg);
+  height: 710px;
+  background-size: cover;
+  overflow: hidden; }
+  .mainheader .overlay {
+    background: rgba(5, 19, 52, 0.85);
+    padding: 100px 0;
+    height: 100%; }
+    .mainheader .overlay .info {
+      border: 1px solid white;
+      border-radius: 10px;
+      height: 250px;
+      background-color: white; }
+      .mainheader .overlay .info h2 {
+        padding-top: 10px;
+        color: #8a6d3b;
+        text-align: center; }
+      .mainheader .overlay .info h4 {
+        font-size: 14px;
+        text-align: center; }
+      .mainheader .overlay .info ul {
+        list-style-type: none;
+        margin: 20px 0px;
+        padding: 2px; }
+        .mainheader .overlay .info ul li {
+          display: inline-block;
+          width: 49%; }
+          .mainheader .overlay .info ul li i {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            color: #fff;
+            background: #8a6d3b;
+            border-radius: 50%;
+            margin-right: 5px;
+            text-align: center;
+            padding: 7px 0; }
+          .mainheader .overlay .info ul li p {
+            display: inline-block;
+            font-size: 14px; }
+      .mainheader .overlay .info a {
+        transition: all 0.4s ease-in-out 0s;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        color: #fff;
+        background: #051334;
+        border-right: 1px solid rgba(255, 255, 255, 0.36); }
+        .mainheader .overlay .info a:hover {
+          background: #8a6d3b; }
+        .mainheader .overlay .info a i {
+          width: 19%; }
+    .mainheader .overlay img {
+      width: auto;
+      position: absolute;
+      bottom: 6.5%;
+      right: 0;
+      height: 100%; }
+
+.aboutme {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .aboutme .aboutMeTitle h2 {
+    color: #8a6d3b;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0px; }
+  .aboutme .aboutMeTitle p {
+    padding: 0;
+    padding-right: 30px;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 30px; }
+  .aboutme .aboutMeTitle a {
+    margin-top: 30px;
+    background: #fff;
+    color: #051334;
+    border: 1px solid #051334; }
+    .aboutme .aboutMeTitle a:hover {
+      border-color: #8a6d3b;
+      background: #8a6d3b;
+      color: white; }
+    .aboutme .aboutMeTitle a .btn {
+      display: inline-block;
+      font-weight: normal;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      border: 1px solid transparent;
+      padding: 0.5rem 0.75rem;
+      font-size: 1rem;
+      line-height: 1.25;
+      border-radius: 0.25rem;
+      transition: all 0.65s ease-in-out; }
+  .aboutme .skill {
+    padding: 20px; }
+    .aboutme .skill .progressBar {
+      border-radius: 22px;
+      background: #051334;
+      position: relative;
+      float: left;
+      width: 0;
+      height: 100%;
+      font-size: 12px;
+      line-height: 20px;
+      color: #fff;
+      text-align: center; }
+
+body {
+  font-family: 'Raleway', sans-serif; }
+
+/*# sourceMappingURL=index.css.map */
