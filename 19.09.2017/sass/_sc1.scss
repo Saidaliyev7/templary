@@ -61,3 +61,31 @@
 } 
 
 }
+
+@media screen and (max-width: 1000px) {
+ .slideContent {
+   .btn {
+    padding: 5px 5px !important;
+    font-size: 11px;
+    line-height: 1;
+   }  
+   h2 {
+    font-size: 1em;
+   }
+   .h5 {
+    font-size: 0.75rem;
+   }
+ }
+}
+
+@media screen and (max-width: 587px) {
+    .slideContent {
+        display: none;
+    }
+    .carousel-control-prev {
+        display: none;
+    }
+    .carousel-control-next {
+        display: none;
+    }
+}

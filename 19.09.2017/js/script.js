@@ -55,10 +55,8 @@ $.fn.getArea = function () {
 $(document).ready(function () {
 
   $("body").backtotop({
-      bottom: "15px",
       content: '<i class="fa fa-angle-up" aria-hidden="true"></i>'
   });
-
   $(".header").getArea();
 
   $("#dropdownMenuLink").mouseover(function(){
